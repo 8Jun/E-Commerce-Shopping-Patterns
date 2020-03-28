@@ -28,44 +28,6 @@ The primary goal of this project was to use Machine Learning methods in R and/or
 ## Code Preview
 Libraries used: SKlearn, Pandas, Numpy, google.colab, matplotlib
 ``` python
-classifiers = [
-    #DecisionTreeClassifier(),
-    #KNeighborsClassifier(),
-    #RandomForestClassifier(n_estimators = 100, verbose=3, n_jobs=-1, max_depth=20, random_state=42),
-    #MLPClassifier()
-    #XGBClassifier(),
-    LogisticRegression(max_iter=4000)
-]
-
-clf = Pipeline(steps=[('preprocessor', preprocessor),
-                      ('clf', None)])
-
-# y are the values we want to predict
-y = np.array(features['colPurchase'])
-# Remove the labels from the features
-# axis 1 refers to the columns
-X = features.drop('colPurchase', axis = 1)
-# Saving feature names for later use
-X_list = list(X.columns)
-
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=0)
-
-def get_transformer_feature_names(columnTransformer):
-  output_features = []
-
-  for name, pipe, features in columnTransformer.transformers_:
-    if name!='remainder':
-      for i in pipe:
-        trans_features = []
-        if hasattr(i, 'categories_'):
-          trans_features.extend(i.get_feature_names(features))
-        else:
-          trans_features = features
-      output_features.extend(trans_features)
-
-  return np.array(output_features)
-
 for classifier in classifiers:
     clf.set_params(clf=classifier).fit(X_train, y_train)
     classifier_name = classifier.__class__.__name__
@@ -111,4 +73,8 @@ for classifier in classifiers:
     print('~roc_auc_score: {:.3f}'.format(roc_auc))
     print('~precision-recall AUC: {:.3f}'.format(pr_auc))
     print()
-    ``` python
+```
+
+## PowerPoint Preview
+<embed src="https://github.com/8Jun/E-Commerce-Shopping-Patterns/blob/master/eCommerce%20-%20Final-1.pdf" width="500" height="375" 
+ type="application/pdf">
