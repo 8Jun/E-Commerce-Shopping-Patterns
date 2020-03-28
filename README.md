@@ -1,4 +1,4 @@
-# E-Commerce-Shopping-Patterns
+# E-Commerce Shopping Patterns
 
 ## Contributors
 * Alexander Qaddourah
