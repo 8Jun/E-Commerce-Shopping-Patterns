@@ -75,6 +75,5 @@ for classifier in classifiers:
     print()
 ```
 
-## PowerPoint Preview
-<embed src="https://github.com/8Jun/E-Commerce-Shopping-Patterns/blob/master/eCommerce%20-%20Final-1.pdf" width="500" height="375" 
- type="application/pdf">
+## [Link to Powerpoint Presentation](https://github.com/8Jun/E-Commerce-Shopping-Patterns/blob/master/eCommerce%20-%20Final-1.pdf) 
+![alt text](https://github.com/8Jun/E-Commerce-Shopping-Patterns/blob/master/ppt%20image.png)
