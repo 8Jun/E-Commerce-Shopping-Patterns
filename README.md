@@ -76,4 +76,5 @@ for classifier in classifiers:
 ```
 
 ## [Link to Powerpoint Presentation](https://github.com/8Jun/E-Commerce-Shopping-Patterns/blob/master/eCommerce%20-%20Final-1.pdf) 
-![alt text](https://github.com/8Jun/E-Commerce-Shopping-Patterns/blob/master/ppt%20image.png)
+![alt text](https://github.com/8Jun/E-Commerce-Shopping-Patterns/blob/master/ppt%20preview%20png/ppt%20image.png)
+![alt text](https://github.com/8Jun/E-Commerce-Shopping-Patterns/blob/master/ppt%20preview%20png/ppt%20image2.png)
